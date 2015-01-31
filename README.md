@@ -15,7 +15,7 @@ MACHINE        SYSTEMD    VERSION   CHANNEL   STRATEGY
 172.17.8.102   running    522.6.0   stable    off
 
 # Switch channel
-$ cap prod coreos:swich:channel channel=alpha
+$ cap prod coreos:switch:channel channel=alpha
 Switching core-01's channel to alpha... done
 Switching core-02's channel to alpha... done
 Switching core-03's channel to alpha... done
