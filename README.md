@@ -130,6 +130,13 @@ $ cap prod etcd:mkdir key=<KEY>
 $ cap prod etcd:rmdir key=<KEY>
 ```
 
+### flannel
+
+```bash
+# Show flannel status
+$ cap prod flannel
+```
+
 ### locksmith
 
 ```bash
