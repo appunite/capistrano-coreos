@@ -1,2 +1,2 @@
 # Capistrano::CoreOS
-Managing CoreOS machines and Docker containers via Capistrano 3.
+Managing CoreOS machines and Docker containers by Capistrano 3
