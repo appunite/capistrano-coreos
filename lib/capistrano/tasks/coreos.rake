@@ -1,6 +1,6 @@
 namespace :coreos do
-  desc "Show machine info"
-  task :machine do
+  desc "List CoreOS machine"
+  task :machines do
     machines = {}
 
     on roles(:all) do |m|
