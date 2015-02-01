@@ -12,7 +12,7 @@ namespace :coreos do
       }
     end
 
-    outputs = [["MACHINE", "STATE", "VERSION", "CHANNEL", "STRATEGY"]]
+    outputs = [["MACHINE", "SYSTEMD", "VERSION", "CHANNEL", "STRATEGY"]]
     machines.each do |k,v|
       outputs << [k, v[:state], v[:version], v[:channel], v[:strategy]]
     end
