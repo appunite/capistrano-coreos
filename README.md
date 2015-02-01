@@ -3,7 +3,27 @@ Managing CoreOS machines and Docker containers by Capistrano 3
 
 prototyping now
 
-## BLUEPRINT
+## INSTALLATION
+Add this line to your application's Gemfile:
+
+```ruby
+gem "capistrano-coreos", github: "spesnova/capistrano-coreos"
+```
+
+And then execute:
+
+```bash
+$ bundle
+```
+
+Require coreos tasks.
+
+```ruby
+# Capfile
+require "capistrano/coreos"
+```
+
+## USAGE (blueprint)
 ### CoreOS
 
 ```bash
