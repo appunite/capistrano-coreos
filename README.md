@@ -1,6 +1,8 @@
 # Capistrano::CoreOS
 Managing CoreOS machines and Docker containers by Capistrano 3
 
+NOTE: this is **work in progress**
+
 prototyping now
 
 ## INSTALLATION
